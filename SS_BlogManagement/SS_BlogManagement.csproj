@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>e2a6b4b8-2c3d-4ed0-9db9-03ebf43ba297</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net5.0\appsettings.json" />
+    <Content Include="bin\Debug\net5.0\ResponseConfig.json" />
+    <Content Include="bin\Debug\net5.0\SS_BlogManagement.deps.json" />
+    <Content Include="bin\Debug\net5.0\SS_BlogManagement.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0\SS_BlogManagement.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0\Dapper.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net5.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net5.0\ref\SS_BlogManagement.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.Application.dll" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.Application.pdb" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.dll" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.exe" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.InfraStructure.dll" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.InfraStructure.pdb" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.pdb" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.Shared.dll" />
+    <None Include="bin\Debug\net5.0\SS_BlogManagement.Shared.pdb" />
+    <None Include="bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net5.0\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.23.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SS_BlogManagement.InfraStructure\SS_BlogManagement.InfraStructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net5.0\ref\" />
+  </ItemGroup>
+
+</Project>
